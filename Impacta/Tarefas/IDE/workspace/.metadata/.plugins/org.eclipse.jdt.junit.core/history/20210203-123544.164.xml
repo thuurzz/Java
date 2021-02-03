@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculadoraTest" project="UsandoJUnit1" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="test.CalculadoraTest" time="0.021" displayname="CalculadoraTest" uniqueid="[engine:junit-jupiter]/[class:test.CalculadoraTest]">
+    <testcase name="multiplicacaoTest" classname="test.CalculadoraTest" time="0.015" displayname="multiplicacaoTest()" uniqueid="[engine:junit-jupiter]/[class:test.CalculadoraTest]/[method:multiplicacaoTest()]"/>
+    <testcase name="subtracaoTeste" classname="test.CalculadoraTest" time="0.001" displayname="subtracaoTeste()" uniqueid="[engine:junit-jupiter]/[class:test.CalculadoraTest]/[method:subtracaoTeste()]"/>
+    <testcase name="somaTeste" classname="test.CalculadoraTest" time="0.005" displayname="somaTeste()" uniqueid="[engine:junit-jupiter]/[class:test.CalculadoraTest]/[method:somaTeste()]"/>
+  </testsuite>
+</testrun>
