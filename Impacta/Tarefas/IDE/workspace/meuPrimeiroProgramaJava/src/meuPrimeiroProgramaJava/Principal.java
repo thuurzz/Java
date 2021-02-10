@@ -24,7 +24,7 @@ public class Principal {
 		Scanner entrada = new Scanner(System.in);
 		String nome = entrada.nextLine();
 		
-		// Exibir uma String usando printf.
+		// Exibir uma String usando printf que pula linha ao final.
 		System.out.printf("Olá %s!\n", nome);
 		entrada.close();		
 	}
