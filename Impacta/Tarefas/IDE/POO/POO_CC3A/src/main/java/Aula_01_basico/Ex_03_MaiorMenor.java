@@ -29,5 +29,5 @@ public class Ex_03_MaiorMenor {
        } else {
             System.out.println("O maior é: " + n2);
        }
-    }   
+    }
 }
