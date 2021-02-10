@@ -30,6 +30,9 @@ public class Principal {
 		
 		// Perguntar a idade
 		System.out.printf("%s! qual é a sua idade?", nome);
+		entrada.close();	
+		
+		//NOTA: Implementar leitura de idade e exibi-la.
 	}
 
 }
