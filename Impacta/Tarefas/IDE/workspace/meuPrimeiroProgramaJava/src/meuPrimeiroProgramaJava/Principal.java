@@ -18,7 +18,7 @@ public class Principal {
 	 * @param args
 	 */
 	public static void main(String[] args) { // Classe que contém o método principal.
-		System.out.println("Olá Mundo!\nQual é o seu nome?"); // Uso do println.
+		System.out.println("Olá Mundo!\nComo vai?\nQual é o seu nome?"); // Uso do println.
 		
 		// Ler uma String do console com a lib Scanner.
 		Scanner entrada = new Scanner(System.in);
