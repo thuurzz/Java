@@ -26,7 +26,10 @@ public class Principal {
 		
 		// Exibir uma String usando printf que pula linha ao final.
 		System.out.printf("Olá %s!\n", nome);
-		entrada.close();		
+		entrada.close();
+		
+		// Perguntar a idade
+		System.out.printf("%s! qual é a sua idade?", nome);
 	}
 
 }
