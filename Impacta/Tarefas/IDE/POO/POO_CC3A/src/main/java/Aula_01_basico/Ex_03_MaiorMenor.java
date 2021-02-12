@@ -24,9 +24,11 @@ public class Ex_03_MaiorMenor {
         System.out.println("Digite outro número: ");
         n2 = entrada.nextDouble();
         
-       if(n1 > n2){
-            System.out.println("O maior é: " + n1);
+       if(n1 <= n2){
+            System.out.println("O maior é: " + n2);
+            System.out.println("O menor é: " + n1);
        } else {
+            System.out.println("O maior é: " + n1);
             System.out.println("O maior é: " + n2);
        }
     }
