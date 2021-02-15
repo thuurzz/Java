@@ -1,10 +1,11 @@
-package test;
+package arranjo;
 
 public class Arranjo {
+	// Array sugerida
 	Integer[] a = {940, 880, 830, 790, 750, 660, 650, 590, 510, 940};
-	
+		
 	public Integer menor() {
-		// incia menor com primeiro item do array.
+		// inicia menor com primeiro item do array.
 		int menor = a[0];
 		// Percorre o array vendo se o item é menor que o menor.
 		for (int i = 0; i < (a.length); i++){
@@ -18,16 +19,16 @@ public class Arranjo {
 	}
 
 	public Integer maior() {
-		// incia maior com primeiro item do array.
+		// inicia maior com primeiro item do array.
 		int maior = a[0];
-		// Percorre o array vendo se o item é menor que o menor.
+		// Percorre o array vendo se o item é maior que o maior.
 		for (int i = 0; i < (a.length); i++){
-			// Se item for menor, atribui a var menor.
+			// Se item for maior, atribui a var maior.
 			if (a[i] > maior) {
 				maior = a[i];
 			}
 		}
-		// retorna menor valor da array.
+		// retorna maior valor da array.
 		return maior;
 	}
 
@@ -43,9 +44,9 @@ public class Arranjo {
 	}
 
 	public int repeticoes(int i) {
-		// Começa qtdades de rep com 0.
+		// Começa qtdades de repetições com 0.
 		int rep = 0;
-		// Percorre o array
+		// Percorre o array.
 		for (int j = 0; j < (a.length); j++){
 			// Se item do array igual a o procurado(i).
 			if (a[j] == i) {
